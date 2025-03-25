@@ -15,7 +15,7 @@ import java.util.UUID;
 /**
  * Created by jt on 2019-04-20.
  */
-@RequestMapping("/api/v1/beer")
+@RequestMapping("/api/v2/beer")
 @RestController
 public class BeerControllerV2 {
 

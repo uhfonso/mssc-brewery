@@ -22,18 +22,12 @@ public class BeerServiceImpl implements BeerService {
     public BeerDto saveNewBeer(BeerDto beerDto) {
        return BeerDto.builder()
                .id(beerDto.getId())
-               .beerName(beerDto.getBeerName())
-               .beerStyle(beerDto.getBeerStyle())
                .build();
     }
 
     @Override
     public void updateBeer(UUID beerId, BeerDto beerDto) {
-        BeerDto.builder()
-                .id(beerId)
-                .beerName(beerDto.getBeerName())
-                .beerStyle(beerDto.getBeerStyle())
-                .build();
+        // TODO Implementar
 
     }
 
